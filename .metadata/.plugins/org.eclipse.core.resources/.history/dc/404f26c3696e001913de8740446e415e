@@ -1,0 +1,21 @@
+package com.sync.concept;
+
+public class BusReservation implements Runnable{
+
+	private int totalSeatsAvailable=2;
+	@Override
+	public void run() {
+		PassengerThread pt=(PassengerThread)Thread.currentThread();
+		boolean ticketsBooked
+		boolean ticketsBooked=this.bookTickets(pt.getSeatsNeeded(),pt.getName());
+		if(ticketsBooked==true)
+		{
+			System.out.println("Congrats "+Thread.currentThread().getName()+" The no of seats requsted is "+pt.getSeatsNeeded()+") are booked");
+		}
+		else {
+		System.out.println("Sorry Mr."+Thread.currentThread().getName()+" the no of seats requested("+pt.getSeatsNeeded()+") are not available");	
+		}
+		}
+	}
+
+

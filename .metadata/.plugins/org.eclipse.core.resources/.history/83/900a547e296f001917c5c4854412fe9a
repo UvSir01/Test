@@ -1,0 +1,7 @@
+package com.collection.byme;
+
+public class Employee {
+int id;
+String name;
+
+}

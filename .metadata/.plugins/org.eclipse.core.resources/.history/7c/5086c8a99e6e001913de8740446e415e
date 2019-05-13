@@ -1,0 +1,21 @@
+package com.thread.concept;
+
+public class Racer implements Runnable {
+	public static String winner;
+	public void race()
+	{
+		
+		for(int distance=1; distance<=100; distance++)
+		{
+			
+			System.out.println("Distance Covered by: "+Thread.currentThread().getName()+"meetrs");
+		}
+	}
+
+	@Override
+	public void run() {
+		
+		
+	}
+
+}

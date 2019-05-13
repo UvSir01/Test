@@ -1,0 +1,13 @@
+package com.sync.concept;
+
+public class BusReservation implements Runnable{
+
+	private int totalSeatsAvailable=2;
+	@Override
+	public void run() {
+		PassengerThread pt=(PassengerThread)Thread.currentThread();
+		boolean ticketsBooked=this.bookTickets(pt.getSeatsNeeded(),pt.getName())
+		
+	}
+
+}

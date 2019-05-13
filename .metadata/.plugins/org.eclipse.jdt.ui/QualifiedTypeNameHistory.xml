@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.nt.dao.StudentDAO"/>
+<fullyQualifiedTypeName name="com.nt.bo.StudentBO"/>
+<fullyQualifiedTypeName name="com.nt.service.StudentService"/>
+<fullyQualifiedTypeName name="com.nt.dto.StudentDTO"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+</qualifiedTypeNameHistroy>

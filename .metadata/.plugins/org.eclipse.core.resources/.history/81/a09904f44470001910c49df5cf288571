@@ -1,0 +1,10 @@
+package com.collection.byme;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String[] args) {
+	double x=10.0;
+	
+	}
+}

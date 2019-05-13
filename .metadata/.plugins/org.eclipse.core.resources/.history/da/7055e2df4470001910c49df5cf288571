@@ -1,0 +1,16 @@
+package com.collection.byme;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String[] args) {
+	int x=-5;
+	String result;
+	result=(x>0)?"+ve":"-ve";
+	System.out.println(result);
+		/*
+		 * if(x>0) { System.out.println("+ve"); } else { System.out.println("-ve"); }
+		 */
+	
+	}
+}

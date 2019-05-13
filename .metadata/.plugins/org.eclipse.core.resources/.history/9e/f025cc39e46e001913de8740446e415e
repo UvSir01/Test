@@ -1,0 +1,8 @@
+package com.thread.concept;
+
+public class Demo {
+	public static void main(String[] args) {
+		Test t=new Test();
+		String st=new String("juned");
+	}
+}
